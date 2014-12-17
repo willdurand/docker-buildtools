@@ -19,6 +19,7 @@ RUN /usr/bin/update-alternatives --install /usr/bin/php php /usr/bin/hhvm 60
 
 # Composer
 RUN wget -O /usr/local/bin/composer -q https://getcomposer.org/composer.phar
+RUN chmod +x /usr/local/bin/composer
 
 # Bower
 RUN npm install --global bower
