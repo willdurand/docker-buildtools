@@ -13,14 +13,14 @@ build tools:
 Usage
 -----
 
-    $ docker run --rm buildtools composer --version
+    $ docker run --rm -v `pwd`:/srv willdurand/buildtools composer --version
     Composer version 1.0-dev
 
-    $ docker run --rm buildtools bundle --version
+    $ docker run --rm -v `pwd`:/srv willdurand/buildtools bundle --version
     Bundler version 1.7.4
 
-    $ docker run --rm willdurand/buildtools npm --version
+    $ docker run --rm -v `pwd`:/srv willdurand/buildtools npm --version
     1.4.28
 
-    $ docker run --rm buildtools bower --version
+    $ docker run --rm -v `pwd`:/srv willdurand/buildtools bower --version
     1.3.12
