@@ -23,3 +23,5 @@ RUN chmod +x /usr/local/bin/composer
 
 # Bower
 RUN npm install --global bower
+
+WORKDIR /srv
