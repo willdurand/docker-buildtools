@@ -15,6 +15,8 @@ RUN apt-get install -y hhvm nodejs bundler
 
 # Configure HHVM
 RUN echo "date.timezone = Europe/Paris" >> /etc/hhvm/php.ini
+RUN echo "hhvm.resource_limit.socket_default_timeout = 30" >> /etc/hhvm/php.ini
+RUN echo "hhvm.http.slow_query_threshold = 300000" >> /etc/hhvm/php.ini
 RUN /usr/bin/update-alternatives --install /usr/bin/php php /usr/bin/hhvm 60
 
 # Composer
