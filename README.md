@@ -4,10 +4,11 @@ Docker Build Tools
 Simple yet useful Docker image based on `debian:jessie`, providing a set of
 build tools:
 
-* [Composer](https://getcomposer.org/) (using [HHVM](https://getcomposer.org/));
-* [Bundler](http://bundler.io/);
-* [NPM](https://www.npmjs.com/);
-* [Bower](http://bower.io/).
+* [Composer](https://getcomposer.org/) (using [HHVM](https://getcomposer.org/))
+* [Bundler](http://bundler.io/)
+* [NPM](https://www.npmjs.com/)
+* [Bower](http://bower.io/)
+* [Grunt](http://gruntjs.com/) (`grunt-cli` only)
 
 
 Usage
