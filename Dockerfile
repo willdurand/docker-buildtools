@@ -23,5 +23,6 @@ RUN chmod +x /usr/local/bin/composer
 
 # Bower
 RUN npm install --global bower
+RUN npm install --global grunt-cli
 
 WORKDIR /srv
