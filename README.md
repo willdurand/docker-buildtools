@@ -9,6 +9,7 @@ build tools:
 * [NPM](https://www.npmjs.com/)
 * [Bower](http://bower.io/)
 * [Grunt](http://gruntjs.com/) (`grunt-cli` only)
+* [Fabric](http://www.fabfile.org/)
 
 
 Usage
@@ -25,3 +26,10 @@ Usage
 
     $ docker run --rm -v $(pwd):/srv willdurand/buildtools bower --version
     1.3.12
+
+    $ docker run --rm -v $(pwd):/srv willdurand/buildtools grunt --version
+    grunt-cli v0.1.13
+
+    $ docker run --rm -v $(pwd):/srv willdurand/buildtools fab --version
+    Fabric 1.10.0
+    Paramiko 1.15.1

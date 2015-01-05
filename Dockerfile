@@ -25,4 +25,7 @@ RUN chmod +x /usr/local/bin/composer
 RUN npm install --global bower
 RUN npm install --global grunt-cli
 
+# Fabric
+RUN apt-get -y install fabric
+
 WORKDIR /srv
