@@ -10,6 +10,7 @@ build tools:
 * [Bower](http://bower.io/)
 * [Grunt](http://gruntjs.com/) (`grunt-cli` only)
 * [Fabric](http://www.fabfile.org/)
+* [Fig](http://www.fig.sh/)
 
 
 Usage
